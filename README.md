@@ -2,7 +2,7 @@
 
 * `output.txt` is the final file containing the amplification primers and amplicon number/length information for all genes.
 
-* `design_gene_amplification_primers.py` was used to generate output.txt from Creinhardtii_236_gene.txt and Creinhardtii_236_softmasked.fa*, using the following command `design_gene_amplification_primers.py -m 150 -a5000`
+* `design_gene_amplification_primers.py` was used to generate output.txt from Creinhardtii_236_gene.txt and Creinhardtii_236_softmasked.fa*, using the following command: `design_gene_amplification_primers.py -m 150 -a5000`
 
 * `convert_gff_gene_data.py` was used to generate Creinhardtii_236_gene.txt from Creinhardtii_236_gene.gff3*, using the following command: `convert_gff_gene_data.py Creinhardtii_236_gene.gff3 Creinhardtii_236_gene.txt`
 
