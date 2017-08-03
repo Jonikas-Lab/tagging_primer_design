@@ -1,8 +1,8 @@
 ### Files:
-
+ 
 * `output_Max2600_Min1700.txt` is the final file containing the amplification primers and amplicon number/length information for all genes, in tab-separated plain text.
 
-* `design_gene_amplification_primers.py` was used to generate output.txt from Creinhardtii_236_gene.txt and Creinhardtii_236_softmasked.fa*, using the following command: `design_gene_amplification_primers.py -m 1700 -a 2600 -F output_Max2600_Min1700.txt` (default values were used for the input files and additional options, which can be seen by running `design_gene_amplification_primers.py --help`)
+* `design_gene_amplification_primers.py` was used to generate `output_Max2600_Min1700.txt` based on Creinhardtii_236_gene.txt and Creinhardtii_236_softmasked.fa*, using the following command: `design_gene_amplification_primers.py -m 1700 -a 2600 -F output_Max2600_Min1700.txt` (default values were used for the input files and additional options, which can be seen by running `design_gene_amplification_primers.py --help`)
 
 * `convert_gff_gene_data.py` was used to generate Creinhardtii_236_gene.txt from Creinhardtii_236_gene.gff3*, using the following command: `convert_gff_gene_data.py Creinhardtii_236_gene.gff3 Creinhardtii_236_gene.txt`
 
